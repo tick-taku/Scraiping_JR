@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = "*"
+beautifulsoup4 = "*"
+lxml = "*"
+slackweb = "*"
+
+[requires]
+python_version = "3.7.2"
+
+[scripts]
+start = "python scraiping_train.py"
